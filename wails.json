@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "companion-webview",
+  "outputfilename": "companion-webview",
+  "frontend:install": "echo 'No frontend install needed'",
+  "frontend:build": "echo 'No frontend build needed'",
+  "frontend:dev:watcher": "./serve-frontend.sh",
+  "frontend:dev:serverUrl": "http://localhost:34115",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "info": {
+    "companyName": "",
+    "productName": "Companion WebView",
+    "productVersion": "1.0.0",
+    "copyright": "",
+    "comments": "Minimal webview for companion tablet interface"
+  },
+  "wailsjsdir": "./frontend"
+}
